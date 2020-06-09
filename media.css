@@ -1,0 +1,392 @@
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait){ 
+  .navbar img{
+   margin-left: 135px;
+    
+  }
+  .navbar .head1 a{
+    text-align: center;
+    margin-left: 37%; 
+ }
+  .dropdown .dropbtn {
+    width: 160px;
+    margin-left:120px;
+  }
+  
+  .dropdown-content {
+    min-width: 150px;
+    margin-left: 110px;
+    margin-right: 5px;
+    padding-right: 5px;
+    
+  }
+  
+  .dropdown-content a {
+    float: left;
+    color: black;
+    text-align: left;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .head{
+    width: 100%;
+    height: 250px;
+    color: rgb(255, 255, 255);
+    top: 50px;
+    background-image: url(photo9.png);
+    background-size: 100% 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 20px 20px 20px;  
+}
+.head p{
+    font-size: 15px;
+    text-align: center;
+    padding:10px;
+ }
+
+   /*------------------------------SECTION-1---------------------------------------------*/
+
+   .section1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    font-family: Georgia;
+    background:rgb(173, 169, 169) ;  
+}
+.section1 .content1{
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.section1 .content1 h1{
+  font-size: 15px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  
+}
+.section1 .content1 hr{
+  width: 330px;
+  padding-left: -40%;
+  
+}
+
+.section1 .content1 p{
+  font-size: 15px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left:20px;
+}
+
+  /*------------------------------section-2-----------------------*/
+  .section2{
+    width:100%;
+    height:800px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'arial';
+   
+}
+  .section2 .content2{
+    color: black;
+    padding: 20px;
+}
+.section2 .content2 .p1{
+    font-size: 25px;
+    font-weight: bolder;
+  
+    text-align: center;
+    color: blue;
+}
+.section2 .content2 .p2{
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+}
+.section2 .content2 .p3{
+    font-size:15px;
+    margin-top: 20px 20px 0 20px;
+    text-align: center;
+
+}
+.section2 hr{
+    width: 330px;
+    height: 2px;
+    color:black;
+    border-radius: 1px;
+    margin-left: 35px;
+}
+.section2 .content2-1{
+    color: black;
+    padding: 20px
+}
+.section2 .content2-1 .p4{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: blue;
+}
+.section2 .content2-1 .p5{
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+}
+.section2 .content2-1 .p6{
+    font-size: 20px;
+    margin-top: 20%;
+    text-align: center;
+   
+}
+
+.section2 button{
+    outline: 0;
+    background: rgb(10, 14, 238);
+    color: rgb(245, 243, 243);
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 28%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+.section2 button:hover{
+    background-color: #e48b25;
+}
+/*--------------------------------------section-3------------------------------------*/
+.section3{
+  width: 100%;
+  height: 350px;
+  font-family: Georgia;
+
+}
+.section3 .image3 img{
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background-color:#3475ca;
+  opacity: 0.25
+}
+.section3 .content3{
+margin-top: 10%;
+padding:50px;
+position: absolute;
+
+}
+.section3 .content3 h1{
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(7, 6, 6);
+ 
+}
+.section3 .content3 p{
+  font-size: 15px;
+  padding: 5px 10px;
+  line-break: 10px;
+ 
+}
+/*---------------------------------------section-4------------------------------------*/
+.section4{
+width: 100%;
+height: 1500px;
+justify-content: center;
+align-items: center;
+background: #f3f3f3;
+overflow: hidden;
+}
+
+.content4{
+position: relative;
+width: 1050px;
+flex-wrap: wrap;
+justify-content: space-between;
+transform: skewy(-10deg);
+
+}
+.content4 .card{
+position: relative;
+width: 200px;
+height: 400px;
+left: 20%;
+margin: 50px;
+background: #fff;
+transition: 0.5s;
+}
+.content4 .card .image4{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #00c7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*--------------------------------section-5------------------------------------------*/
+.section5{
+width: 100%;
+height: 1500px;
+font-family: Georgia;
+background-color: black;
+color: white;
+}
+
+.section5 .content5{
+text-align: center;
+font-weight: bolder;
+padding: 40px 40px 20px 40px;
+font-size: 15px;
+color: blue;
+
+}
+.section5 hr{
+width:330px;
+height: 2px;
+color: aqua;
+border-radius: 1px;
+margin-left: 38px;
+}
+.section5 .content5A{
+position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-left: -20px;
+}
+.section5 .content5-1{
+width: 300px;
+height: 400px;
+margin: 50px;
+padding: 20px;
+text-align: center; 
+border: 2px solid aqua;
+border-radius: 50px 0 50px 0;
+
+}
+.section5 .content5-2{
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;  
+  border: 2px solid aqua;
+  border-radius: 0 50px 0 50px;
+}
+
+.section5 .content5-3{
+  width: 300px;
+  height: 330px;
+  margin: 50px 50px 0 50px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid aqua;
+  border-radius: 50px 0 50px 0;
+  
+}
+.section5 .content5-3  p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+
+/*----------------------------------section-6-----------------------*/
+
+
+input{
+width:250px;
+padding: 12px 20px;
+margin: 15px 0;
+display: inline-block;
+border: 1px solid rgb(7, 6, 6);
+border-radius: 4px;
+box-sizing: border-box;
+text-align: left;
+
+}
+textarea{
+width: 250px;
+border: 1px solid rgb(10, 9, 9);
+margin-top: 5px;
+border-radius: 4px;
+box-sizing: border-box;
+text-align: left;
+padding:12px 20px;
+
+}
+input[type=submit] {
+  width: 40%;
+  background-color: rgb(7, 243, 14);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 10px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+.social-menu {
+  position: fixed;
+  top: 70px;
+  left: 90%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: left;
+}
+
+.social-menu-open:checked ~ .social-menu-item {
+transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+.social-menu-open:checked ~ .social-menu-item:nth-child(3) {
+transition-duration: 160ms;
+-webkit-transform: translate3d(-55px, -40px, 0);
+        transform: translate3d(-55px, -40px, 0);
+}
+.social-menu-open:checked ~ .social-menu-item:nth-child(4) {
+transition-duration: 240ms;
+-webkit-transform: translate3d(-5px, -60px, 0);
+        transform: translate3d(-5px, -60px, 0);
+}
+.social-menu-open:checked ~ .social-menu-item:nth-child(5) {
+transition-duration: 320ms;
+-webkit-transform: translate3d(0.09158px, 70px, 0);
+        transform: translate3d(0.09158px, 70px, 0);
+}
+.social-menu-open:checked ~ .social-menu-item:nth-child(6) {
+transition-duration: 400ms;
+-webkit-transform: translate3d(-50px, 60px, 0);
+        transform: translate3d(-50px, 60px, 0);
+}  .social-menu-open:checked ~ .social-menu-item:nth-child(7) {
+transition-duration: 480ms;
+-webkit-transform: translate3d(-70px, 11px, 0);
+        transform: translate3d(-70px, 11px, 0);
+}
+/*-------------------------------login---------------------------------*/
+
+}
+
+
+
+

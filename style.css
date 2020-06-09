@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+*::-webkit-scrollbar {
+width: 10px;
+}
+*::-webkit-scrollbar-track {
+background: rgb(10, 10, 10);
+}
+*::-webkit-scrollbar-thumb {
+background-color: blue;
+border-radius: 20px;
+border: 3px solid rgb(10, 10, 10);
+}
+
+.navbar{
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    font-family: Georgia;
+    
+  }
+  .navbar img{
+      float: left;
+  }
+  .navbar .head1{
+     float: right;
+     margin-top: 12px;
+  }
+  
+  
+  .navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Georgia; 
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 102, 0);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.head{
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 255, 255);
+    top: 50px;
+    background-image: url(photo9.png);
+    background-size: 100% 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head h1{
+    font-size: 75px;
+    text-align: center;
+    padding: 100px 100px 50px 100px;  
+}
+.head p{
+    font-size: 30px;
+    text-align: center;
+    padding: 0 100px 0 100px;
+}
+
+
+        /*------------------------------SECTION-1---------------------------------------------*/
+        
+.section1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    font-family: Georgia;
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+ 
+   
+}
+.section1 .content1{
+    color: rgb(10, 10, 10);
+    padding: 100px 40px; 
+}
+.section1 .content1 h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 700px;
+    text-align: center;
+    
+}
+.section1 hr{
+    width: 500px;
+    height: 2px;
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+    margin-left: 25px;
+   
+}
+.section1 .content1  p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-right: 700px;
+    text-align: center;
+}
+
+
+.section1 .content1 ul li{
+    text-align: left;
+    font-size: 15px;
+    line-break: 10px;
+    margin: 0 0 0 75px;
+    
+}
+
+        /*--------------------------------SECTION 2--------------------------------------------------------*/
+
+.section2{
+    width:100%;
+    height:800px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'arial';
+   
+}
+.section2 .content2{
+    color: black;
+    padding: 50px 300px 50px 300px;
+}
+.section2 .content2 .p1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px;
+    text-align: center;
+    color: blue;
+}
+.section2 .content2 .p2{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.section2 .content2 .p3{
+    font-size:20px;
+    margin-top: 20px 20px 0 20px;
+    text-align: center;
+
+}
+.section2 hr{
+    width: 800px;
+    height: 2px;
+    color:black;
+    border-radius: 1px;
+    margin-left: 275px;
+}
+.section2 .content2-1{
+    color: black;
+    padding: 50px 250px 50px 250px;
+}
+.section2 .content2-1 .p4{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    color: blue;
+}
+.section2 .content2-1 .p5{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.section2 .content2-1 .p6{
+    font-size: 30px;
+    margin-top: 10%;
+    text-align: center;
+   
+}
+
+.section2 button{
+    outline: 0;
+    background: rgb(10, 14, 238);
+    color: rgb(245, 243, 243);
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+.section2 button:hover{
+    background-color: #e48b25;
+}
+/*-----------------------------------SECTION 3------------------------------------------------------*/
+
+.section3{
+    width: 100%;
+    height: 600px;
+    font-family: Georgia;
+  
+}
+.section3 .image3 img{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color:#3475ca;
+    opacity: 0.25
+}
+.section3 .content3{
+  padding:200px 100px 100px 100px;
+  position: absolute;
+  
+}
+.section3 .content3 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(7, 6, 6);
+   
+}
+.section3 .content3 p{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 100px ;
+
+}
+
+/*-----------------------------------SECTION 4------------------------------------------------------*/
+
+.section4{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+
+.content4{
+    position: relative;
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: skewy(-10deg);
+   
+}
+.content4 .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transition: 0.5s;
+}
+.content4 .card:before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width:100%;
+    height: 15px;
+    background:#00c0f6;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+
+.content4 .card:after{
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width:15px;
+    height: 50%;
+    background:#00c0f6;
+    transform-origin: left;
+    transform: skewy(45deg);
+    transition: 0.5s;
+    border-bottom: 200px solid #d9d9d9;
+}
+
+
+.content4 .card:hover{
+    transform: translateY(-40px);
+}
+.content4 .card .image4{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #00c7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content4 .card .image4 img{
+    max-width: 100px;
+}
+.content4 .card .image4 h1{
+    position: relative;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.content4 .card .content{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    color: #777;
+    background: #fff;
+    text-align: center;
+}
+.content4.card .content:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(transparent,transparent,rgba(0,0,0,.1));
+    transform-origin: bottom ;
+    transition: 0.5s;
+    transform: skewX(45deg);
+    pointer-events: none;
+    z-index:-1;
+}
+.content4 .card:hover .content:before{
+    transform: translate(40px) skewX(45deg) ;
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+
+
+
+/*---------------------------------SECTION 5-----------------------------------------------------------------*/
+
+.section5{
+    width: 100%;
+    height: 600px;
+    font-family: Georgia;
+    background-color: black;
+    color: white;
+}
+.section5 .content5{
+    text-align: center;
+    font-weight: bolder;
+    padding: 50px;
+    font-size: 30px;
+    color: blue;
+}
+.section5 hr{
+    width: 1000px;
+    height: 2px;
+    color: aqua;
+    border-radius: 1px;
+    margin-left: 175px;
+
+}
+
+.section5 .content5A{
+    display: flex;
+    padding: 0 50px 0 50px;
+}
+.section5 .content5-1{
+    width: 300px;
+    height: 250px;
+    margin: 150px 50px 50px 50px;
+    padding: 20px;
+    text-align: center; 
+    border: 2px solid aqua;
+    border-radius: 50px 0 50px 0;
+
+}
+.section5 .content5-1  h1{
+    margin-bottom: 10px;
+}
+.section5 .content5-1  p{
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.section5 .content5-2{
+    width: 300px;
+    height: 250px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;  
+    border: 2px solid aqua;
+    border-radius: 0 50px 0 50px;
+}
+.section5 .content5-2  h1{
+    margin-bottom: 10px;
+    line-break: 10px;
+}
+.section5 .content5-2  p{
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.section5 .content5-3{
+    width: 300px;
+    height: 250px;
+    margin: 150px 50px 0 50px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid aqua;
+    border-radius: 50px 0 50px 0;
+    
+}
+.section5 .content5-3  p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+
+
+/*---------------------------------SECTION 6-----------------------------------------------------------------*/
+
+.section6{
+    width: 100%;
+    height: 700px;
+    font-family: Georgia;
+    background-image: url(letgo1.jpg);
+    background-size: 100%  700px;
+    color: white;
+}
+
+
+.section6 .content6 form{
+    text-align: center;
+}
+
+.section6 .content6 form h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(5, 252, 5);
+}
+
+
+input{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid rgb(7, 6, 6);
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+ 
+  
+}
+textarea{
+    border: 1px solid rgb(10, 9, 9);
+    margin-top: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    padding:12px 20px;
+   
+}
+
+label{
+    margin-left: -175px;
+}
+
+
+input[type=submit] {
+    width: 20%;
+    background-color: rgb(7, 243, 14);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 15px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+.section6 p{
+      text-align: center;
+       margin: 30px;
+  }
+
